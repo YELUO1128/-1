@@ -1,0 +1,103 @@
+<!--作者： YELUO
+日期： 2021年 04月19日-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            padding:20px;
+            border:1px solid #999 ;
+        }
+        .box0{
+            background-color: #eee;
+            margin:20px;
+            height: 999px;
+            border:1px solid black;
+        }
+        .box1{
+            width: 200px;
+            height: 120px;
+            background-color: white;
+            float:left;
+        }
+        .box2{
+            width: 930px;
+            height: 422px;
+            background-color: white;
+            position:absolute;
+            top:40px;
+            left:311px;
+
+        }
+        .box3{
+            width: 120px;
+            height: 600px;
+            background-color: white;
+            float:right
+        }
+        .box11 {
+            width: 80px;
+            height: 80px;
+            background-color: #eee;
+            display: inline-block;
+        }
+        .box13{
+            width: 80px;
+            height: 80px;
+            background-color:#eee;
+            margin-top:20px;
+        }
+        .box11 p{
+            margin: 0 10px;
+        }
+        .box13 p {
+            margin: 0 10px;
+        }
+        .box1 span{
+            position: relative;
+            top:0
+        }
+
+    </style>
+</head>
+<body>
+<div class="box0">
+    <div class="box1">
+        <div class="box11">
+            团队logo
+            <p>80x80</p>
+        </div>
+        <span>团队名称</span>
+    </div>
+    <div class="box2">
+        <p>团队介绍</p>
+    </div>
+
+    <div class="box3">
+        <div class="box11">
+            个人logo
+            <p>80x80</p>
+        </div>
+        <div class="box13">
+            个人logo
+            <p>80x80</p>
+        </div>
+        <div class="box13">
+            个人logo
+            <p>80x80</p>
+        </div>
+        <div class="box13">
+            个人logo
+            <p>80x80</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

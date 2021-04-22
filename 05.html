@@ -1,0 +1,311 @@
+<!--作者： YELUO
+日期： 2021年 04月20日-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html与css</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .box1{
+            width: 100%;
+            height: 60px;
+            background-color:#333333;
+            padding:0;
+        }
+        .box1 img{
+            width: 30px;
+            height: 40px;
+            padding:10px 25px;
+        }
+        .content{
+            float:right;
+        }
+        .content li{
+            float:right;
+           padding:15px 25px;
+
+         }
+        li a{
+            text-decoration: none;
+            color:white;
+            font-size:12px
+        }
+        body{
+            background-color:#eee;
+        }
+        div{
+            padding:20px;
+        }
+        .page1{
+            background-color:white;
+            width: 856px;
+            box-shadow: 3px 3px 3px grey;
+            /*float:left;*/
+            margin-top:20px;
+         }
+        .page1 h4{
+            margin-top:20px ;
+            color: #999999;
+        }
+        .h5{
+            font-size: 12px;
+        }
+        .page1 p{
+            text-indent:2em;
+            font:normal 500 14px "Microsoft YaHei";
+        }
+        p span{
+            font-weight:700;
+        }
+        p a{
+            color: blue;
+        }
+        .picture1{
+            width: 316px;
+            height: 247px;
+            margin:20px 0;
+        }
+        .page1 li{
+            list-style: none;
+            margin:0 20px;
+        }
+        .page1 .picture2{
+            display:inline-block;
+            width: 130px;
+            border: 1px solid grey;
+            text-align:center;
+            margin:20px 20px 0 0;
+
+        }
+        .page1 .picture2 p{
+            text-indent:0;
+        }
+        .picture2 img{
+            width: 120px;
+        }
+        .page1 ol{
+            margin-top:20px;
+        }
+        ol li{
+            font-weight: 700;
+        }
+        table{
+            border-collapse:collapse;
+        }
+        table td{
+            width: 272px;
+            border:1px solid grey;
+        }
+        .td1{
+            background-color:black;
+            color: white;
+        }
+        .td4{
+            background-color: #999999;
+            font-weight: 500;
+        }
+        .page2{
+            background-color:white;
+            width: 364px;
+            box-shadow: 3px 3px 3px grey;
+            position:absolute;
+            top:80px;
+            right:20px;
+            margin-top:20px;
+
+        }
+        .line1{
+            font-size:26px;
+            font-weight:700;
+            color:#999999;
+        }
+        .line2{
+            font:normal 700 16px 'Microsoft YaHei ';
+        }
+        .page2 p{
+            text-indent:1em;
+            font-size: 13px;
+            margin-top:10px;
+            font-weight: 500;
+        }
+        .page2 .mail{
+            text-indent:9em;
+            color:#999999;
+        }
+        .page2 .pw{
+            text-indent:4em;
+        }
+        .page2 .pw2{
+            text-indent:2em;
+        }
+        .sex{
+            margin: 90px;
+        }
+        .habby{
+            margin:20px
+        }
+        .takeOn{
+            width: 324px;
+            height: 50px;
+            background-color:dodgerblue;
+            border-radius:11px;
+        }
+        .takeOn a{
+            text-decoration: none;
+            font:normal 700 19px 'Microsoft YaHei ';
+            display:inline-block;
+            height:50px;
+            margin: 0 86px;
+            color:white;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div class="box1">
+    <img src="./resource/新闻部/10.png" >
+    <ul class="content">
+        <li><a href="#">导航链接1</a></li>
+        <li><a href="#">导航链接2</a></li>
+        <li><a href="#">导航链接3</a></li>
+        <li><a href="#">导航链接4</a></li>
+    </ul>
+</div>
+<div>
+    <div class="page1">
+        <h3>文章一级标题</h3>
+        <h4>文章二级标题</h4>
+        <h4 class="h5">文章作者： 发表时间：</h4>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的
+            段落 换行了</p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的
+            段落 换行了</p>
+        <p>这是一个很长的段落，这是一个很长的段落，<a href="http://www.baidu.com">这里有一个链接到百度</a> 这是一个很长的段落，这是一
+        个很长的段落，这是一个很长的段落，<span>这里有个粗体,</span> 这是一个很长的段落，这是一个很长的 段落 这是一个很长的段落，这是一个很长的
+            段落</p>
+        <img class="picture1" src="./resource/新闻部/9.png" alt="">
+        <ul>
+            <li>项目列表一</li>
+            <li>项目列表二</li>
+            <li>项目列表三</li>
+        </ul>
+    </div>
+    <div class="page1">
+        <h3>另一篇文章的标题</h3>
+        <h4>文章二级标题</h4>
+        <h4 class="h5">文章作者： 发表时间：</h4>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的
+            段落 换行了</p>
+        <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的
+            段落 换行了</p>
+        <p>这是一个很长的段落，这是一个很长的段落，<a href="http://www.baidu.com">这里有一个链接到百度</a> 这是一个很长的段落，这是一
+            个很长的段落，这是一个很长的段落，<span>这里有个粗体,</span> 这是一个很长的段落，这是一个很长的 段落 这是一个很长的段落，这是一个很长的
+            段落</p>
+        <img class="picture1" src="./resource/新闻部/9.png" alt="">
+    </div>
+    <div class="page1">
+        <h3>图片</h3>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+        <div class="picture2">
+            <p>好看的图片</p>
+            <img src="./resource/新闻部/9.png" alt="">
+        </div>
+    </div>
+</div>
+<div>
+  <div class="page1">
+    <h3>最后一篇文章的标题</h3>
+    <h4>文章二级标题</h4>
+    <h4 class="h5">文章作者 文章发表时间</h4>
+      <ol>
+          <li>1. 排名一</li>
+          <li>2 .排名二</li>
+          <li>3 .排名三</li>
+      </ol>
+      <table>
+          <tr ><td class="td1">表头</td> <td class="td1">表头</td> <td class="td1">表头</td></tr>
+          <tr><td>表内容单元格</td> <td>表内容单元格</td> <td><a href="#">操作</a></td></tr>
+          <tr><td>表内容单元格</td> <td>表内容单元格</td> <td><a href="#">操作</a></td></tr>
+          <tr><td>表内容单元格</td> <td>表内容单元格</td> <td><a href="#">操作</a></td></tr>
+          <tr><td>表内容单元格</td> <td>表内容单元格</td> <td><a href="#">操作</a></td></tr>
+          <tr><td class="td4">总计</td> <td class="td4" colspan="2">1000</td></tr>
+      </table>
+  </div>
+</div>
+<div>
+    <div class="page2">
+        <span class="line1">|</span> <span class="line2">这里以后是一个侧边栏，这是侧边栏标题</span>
+        <p> 请输入邮箱地址：<input type="text" placeholder="输入邮箱"></p>
+        <p class="mail">邮箱地址按要求输入</p>
+        <p class="pw">请输入密码:<input type="password"></p>
+        <p class="pw2">请重复输入密码:<input type="password"></p>
+        <p class="mail">密码为6-16位字符</p>
+        <p class="sex">
+            性别：
+            <input type="radio" value="man" name="sex">男
+            <input type="radio" value="woman" name="sex">女
+        </p>
+        <p class="sex">
+            城市：
+            <select name="列表" >
+                <option value="beijing">北京</option>
+                <option value="上海">上海</option>
+                <option value="深圳">深圳</option>
+                <option value="成都">成都</option>
+                <option value="杭州">重庆</option>
+            </select>
+        </p>
+        <p class="habby">
+            爱好：
+            <input type="checkbox"name="hobby">游戏
+            <input type="checkbox"name="hobby">code
+            <input type="checkbox"name="hobby">陪伴
+            <input type="checkbox"name="hobby">运动
+            <input type="checkbox"name="hobby">影音
+        </p>
+        <p class="intriduce">
+            个人描述：
+            <textarea name="txt"  cols="30" rows="10" placeholder="输入你自己的描述"></textarea>
+        </p>
+        <p class="takeOn">
+            <a href="#">确认提交</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

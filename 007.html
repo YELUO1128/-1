@@ -1,0 +1,299 @@
+<!--作者： YELUO
+日期： 2021年 04月25日-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>007</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .top{
+            overflow: hidden;
+            height:57px;
+
+        }
+        .top .word{
+            float:left;
+            width: 57px;
+            height: 142px;
+            padding-left:59px;
+        }
+        .page{
+            float: left;
+            margin-left: 518px;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration:none;
+        }
+         .page ul li{
+            float:left;
+        }
+
+        .page ul li a{
+            display: block;
+            height: 53px;
+            line-height: 53px;
+            font-size:14px;
+            color:black;
+            padding:0 15px 0 15px;
+        }
+        .page ul li a:hover{
+            color:#e74f40;
+            border-bottom:2px solid #e74f40;
+        }
+        .sign{
+            float:right;
+            width: 83px;
+            height: 57px;
+            margin-right:66px;
+        }
+        .time{
+
+            width: 1280px;
+            height: 690px;
+            background:url("resource/新闻部/images/006-tl_02.png") no-repeat;
+            margin:0 112px;
+        }
+        .time .life{
+           position:absolute;
+            top:428px;
+            left:238px;
+        }
+        .banner1{
+            width: 1280px;
+            height: 250px;
+            background-image: url("resource/新闻部/images/006-banner2_02.png");
+            margin:0 112px;
+
+        }
+        .banner2{
+            width: 1280px;
+            height: 360px;
+            background-image: url("resource/新闻部/images/006-banner3_03.png");
+            margin:0 112px;
+        }
+        .banner2{
+            width: 1280px;
+            height: 341px;
+            background-image: url("resource/新闻部/images/006-banner4_02.png");
+            margin:0 112px;
+        }
+        .banner2 .banner3{
+            position:relative;
+            top:172px;
+            left:200px;
+            width: 1039px;
+            height: 36px;
+        }
+        .banner3 select{
+            width: 236px;
+            height: 36px;
+            margin-right:28px;
+        }
+        select option{
+            appearance: none;
+            font-size:12px;
+            color:gold;
+        }
+        select option:hover{
+            background-color: #cd4a48;
+        }
+        .banner3 img{
+            float: right;
+            margin-right: 0;
+        }
+        .banner4{
+            width: 1280px;
+            height: 604px;
+            background-image: url("resource/新闻部/images/006-banner5_06.png");
+            margin:0 112px;
+        }
+        /*.banner5{*/
+        /*    width: 1280px;*/
+        /*    height: 566px;*/
+        /*    margin:0 112px;*/
+        /*}*/
+        .banner51{
+            display:inline-block;
+            width: 850px;
+            height: 566px;
+            background-image: url("resource/新闻部/images/006-banner5-word_07.png");
+            margin-left: 112px;
+
+        }
+        .banner52{
+            float:right;
+            width: 428px;
+            height: 566px;
+            background-image: url("resource/新闻部/images/006-banner52-1_08.png");
+            margin-right:112px;
+        }
+        .banner521{
+            position:relative;
+            top:366px;
+            left: 66px;
+        }
+        .banner6{
+            float:left;
+            width: 426px;
+            height: 520px;
+           background-image:url("resource/新闻部/images/006-banner6-red_08.png");
+            margin-left:112px;
+        }
+        .banner61{
+            position:relative;
+            top:274px;
+            left: 128px;
+            
+        }
+        .banner7{
+            float:left;
+            width: 426px;
+            height: 520px;
+            background-image:url("resource/新闻部/images/006-banner7_09.png");
+
+        }
+        .banner71 {
+            position: relative;
+            top: 274px;
+            left: 128px;
+        }
+        .banner8 {
+            float: left;
+            width: 426px;
+            height: 520px;
+            background-image: url("resource/新闻部/images/006-banner8_09.png");
+        }
+        .banner9{
+            float:left;
+            margin-left: 112px;
+            width: 1280px;
+            height: 301px;
+            background-image: url("resource/新闻部/images/006-banner9_08.png");
+        }
+        .banner10{
+            float:left;
+            margin-left: 112px;
+            width: 499px;
+            height: 283px;
+            background-image: url("resource/新闻部/images/006-banner10_08.png");
+        }
+        .banner11{
+            float:left;
+            width: 680px;
+            height: 283px;
+        }
+        .banner11 input{
+            display:inline-block;
+            width: 311px;
+            height: 41px;
+            margin:0 17px 13px 0;
+            background-color:#ffffff;
+        }
+        .banner11 .input1{
+            width: 640px;
+            height: 121px;
+        }
+        button{
+            width: 641px;
+            height: 41px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="word">
+        <img src="./resource/新闻部/images/006-新世界啊_02.png" alt="">
+    </div>
+    <div class="page">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">最新活动</a></li>
+            <li><a href="#">项目介绍</a></li>
+            <li><a href="#">项目介绍</a></li>
+            <li><a href="#">爱心活动</a></li>
+            <li class="concern"><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+    <div class="sign">
+        <a href="#"><img src="./resource/新闻部/images/006-登录_02.png" alt=""></a>
+    </div>
+</div>
+<div class="time">
+    <div class="life">
+        <a href="#"><img src="resource/新闻部/images/006-experience_03.png" alt=""></a>
+    </div>
+</div>
+<div class="banner1">
+
+</div>
+<div class="banner2">
+<div class="banner3">
+    </select>
+    <select name="列表" >
+        <option value="beijing">中国</option>
+        <option value="上海">美洲</option>
+        <option value="深圳">欧洲</option>
+        <option value="成都">非洲</option>
+        <option value="杭州">俄罗斯</option>
+    </select>
+    <select name="列表" >
+        <option value="beijing">北京</option>
+        <option value="上海">上海</option>
+        <option value="深圳">深圳</option>
+        <option value="成都">成都</option>
+        <option value="杭州">重庆</option>
+    </select>
+    <select name="列表" >
+        <option value="beijing">城市</option>
+        <option value="上海">上海</option>
+        <option value="深圳">深圳</option>
+        <option value="成都">成都</option>
+        <option value="杭州">重庆</option>
+    </select>
+    <a href="#"><img src="./resource/新闻部/images/006-banner搜索_03.png" alt="">
+    </a>
+</div>
+</div>
+<div class="banner4"></div>
+
+    <div class="banner51">
+    </div>
+    <div class="banner52">
+        <div class="banner521">
+            <a href="#"><img src="./resource/新闻部/images/006-banner6.1_09.png"></a>
+        </div>
+    </div>
+<div class="banner6">
+    <div class="banner61">
+        <a href="#"><img src="./resource/新闻部/images/006-banner61_09.png" alt=""></a>
+    </div>
+</div>
+<div class="banner7">
+    <div class="banner71">
+        <img src="./resource/新闻部/images/006-banner71_09.png" alt="">
+    </div>
+
+</div>
+<div class="banner8">
+
+</div>
+<div class="banner9"></div>
+<div class="banner10"></div>
+<div class="banner11">
+    <input type="text"placeholder="姓名">
+    <input type="text"placeholder="年龄">
+    <input type="text"placeholder="联系方式">
+    <input type="text"placeholder="联系地址">
+    <input type="text"placeholder="请简述你的梦想生活" class="input1">
+    <button>提交申请</button>
+</div>
+</body>
+</html>

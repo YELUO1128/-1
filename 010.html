@@ -1,0 +1,83 @@
+<!--作者： YELUO
+日期： 2021年 04月28日-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>flex布局</title>
+    <style>
+        @media screen and (min-width: 640px){
+
+            .box0{
+                display:flex;
+                width: 800px;
+                height: 350px;
+                margin:auto;
+                border:1px solid black;
+                justify-content:space-around;
+                align-items: center;
+            }
+            .box0 span{
+                width: 150px;
+                border:1px solid #f00;
+            }
+            .box0 .box01{
+                height: 120px;
+            }
+            .box0 .box02{
+                height: 100px;
+            }
+            .box0 .box03{
+                height: 40px;
+            }
+            .box0 .box04{
+                height: 200px;
+                border:1px solid #46b8da;
+            }
+        }
+
+        @media screen and (max-width: 640px){
+
+            .box0{
+                display:flex;
+                flex-wrap:wrap;
+                width: 610px;
+                height:350px;
+                margin:auto;
+                border:1px solid black;
+
+            }
+            .box0 span{
+                width: 150px;
+                border:1px solid #f00;
+                margin:20px 25px 0 25px;
+
+            }
+            .box0 .box01{
+                height: 200px;
+                border:1px solid #46b8da;
+            }
+            .box0 .box02{
+                height: 120px;
+            }
+            .box0 .box03{
+                height: 100px;
+            }
+            .box0 .box04{
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="box0">
+    <span class="box01"></span>
+    <span class="box02"></span>
+    <span class="box03"></span>
+    <span class="box04"></span>
+</div>
+</body>
+</html>
